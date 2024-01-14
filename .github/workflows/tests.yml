@@ -29,13 +29,12 @@ jobs:
 
     - name: Lint with Flake8
       run: |
-        flake8 payroll \
+        flake8 \
         --count \
         --show-source \
         --max-complexity=14 \
         --max-line-length=130 \
-        --statistics \
-        --exclude=migrations,tablas_a.py
+        --statistics
 
     - name: Run Tests
       run: |
