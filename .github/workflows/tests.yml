@@ -29,7 +29,7 @@ jobs:
 
     - name: Lint with Flake8
       run: |
-        flake8 numero_a_letras \
+        flake8 src \
         --count \
         --show-source \
         --max-complexity=14 \
