@@ -3,3 +3,7 @@ env/
 __pycache__/
 .env
 token*
+
+# Build
+build/
+dist/

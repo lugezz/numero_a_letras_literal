@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-src/numero_a_letras.py
-src/numero_a_letra.egg-info/PKG-INFO
-src/numero_a_letra.egg-info/SOURCES.txt
-src/numero_a_letra.egg-info/dependency_links.txt
-src/numero_a_letra.egg-info/top_level.txt
-test/test_numero_a_letras.py

@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: numero-a-letras
+Version: 0.0.4
+Summary: Convierte un número a letras en español
+Home-page: https://github.com/lugezz/numero_a_letras_literal
+Author: Eugenio
+Author-email: coding_with@eugeniovazquez.com.ar
+License: MIT
+Description: ## Número a Letras Literal
+        
+        ### Descripción
+        Programa que convierte un número a su equivalente en letras.
+        
+        ### Instalación
+        ```bash
+        pip install numero_a_letras
+        ```
+        
+        ### Uso
+        ```python
+        from numero_a_letras import numero_a_moneda
+        
+        numero_a_letras(123456789.12)
+        
+        # Salida: 'ciento veintitres millones cuatrocientos cincuenta y seis mil setecientos ochenta y nueve con doce'
+        
+        ```
+        
+        También puede generarse el número en letras con su equivalente en moneda.
+        
+        ```python
+        from numero_a_letras import numero_a_moneda
+        
+        numero_a_moneda(123456789.12)
+        
+        # Salida: 'ciento veintitres millones cuatrocientos cincuenta y seis mil setecientos ochenta y nueve pesos con doce centavos'
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10, <3.12
+Description-Content-Type: text/markdown
+Provides-Extra: dev

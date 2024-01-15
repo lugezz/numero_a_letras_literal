@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/numero_a_letras/__init__.py
+src/numero_a_letras/main.py
+src/numero_a_letras.egg-info/PKG-INFO
+src/numero_a_letras.egg-info/SOURCES.txt
+src/numero_a_letras.egg-info/dependency_links.txt
+src/numero_a_letras.egg-info/requires.txt
+src/numero_a_letras.egg-info/top_level.txt
+test/test_numero_a_letras.py
