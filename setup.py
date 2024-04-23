@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="numero_a_letras",
-    version="0.0.4",
+    version="0.0.5",
     description="Convierte un número a letras en español",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
@@ -27,5 +27,5 @@ setup(
     extras_require={
         "dev": ["twine>=4.0.2"],
     },
-    python_requires=">=3.10, <3.12",
+    python_requires=">=3.10, <3.13",
 )
